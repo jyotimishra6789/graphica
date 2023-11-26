@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Experience</title>
+</head>
+<body>
+    <form action="">
+        <h1><b> Your Experience</b></h1>
+        <p><b> share your experience of being a part of our organised campaigns or the experience of getting help from our campaigns and events.Your feedback will help us improve the quality of our help and services such as food quality and communication services.</b></p>
+        <p><b>Feel free to tell us how you felt.</b></p>
+        <h2><b>Tell Us About Yourself</b></h2>
+        <p><b>Name: *</b><input type="text" name="name" required></p>
+        <fieldset>
+            <legend><b>Gender</b></legend>
+           <p>
+               <input type="radio" name="gender" id=""> Male
+               <input type="radio" name="gender" id=""> Female
+
+           </p>
+        </fieldset>       
+        <p><b>Address</b><textarea name="address" id="" cols="50" rows="20"></textarea></p>
+        <p><b>Email: *</b><input type="email" name="email" id="" required></p>
+        <br>
+        <h2><b>Tell Us About Your Experience</b></h2>
+        <p><b>Date of Participation: *</b><input type="datetime" name="date" id="" required></p>
+        <p><b>Name Of Event: *</b><input type="text" name="event_name" id="" required></p>
+        <p><b>Experience Rating: *</b>
+            <select name="card_type" id="" required>
+                <option value="">--Select Your Emotions--</option>
+                <option value="best_experience">Best Experience</option>
+                <option value="happy">Happy</option>
+                <option value="Neutral">Neutral</option>
+                <option value="not_happy">Not Happy</option>
+                <option value="worst_experience">Worst Experience</option>
+            </select>
+        </p>
+        <p><b>Level of your Satisfaction: </b><input type="range" name="satisfaction" id=""</p>
+        <p><b>Express your experience: </b><textarea name="experience" id="" cols="70" rows="20"></textarea></p>
+        <p><b>Photos of the event you would like to share: </b><input type="file" name="photo" id=""</p>
+        <fieldset>
+            <legend><b>Level of Recommendation</b></legend>
+           <p>
+               <input type="radio" name="recommendation" id=""> Highly Recommended
+               <input type="radio" name="recommendation" id=""> Recommended
+               <input type="radio" name="recommendation" id=""> Not Recommended
+           </p>
+        </fieldset>
+        <br>  
+        <input type="submit" value="Submit Experience" style="border: 2px solid black; color: white; background-color: blue; border-radius: 10%;" >
+        <input type="reset" value="Reset" style="border: 2px solid black; color: white; background-color: blue; border-radius: 10%;">
+    </form>
+</body>
+</html>
